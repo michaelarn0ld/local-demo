@@ -5,7 +5,8 @@ while True:
         break
 
     name = input('Enter your username: ')
-    if name == 'Michael':
+    password = input('Enter a password: ')
+    if name == 'Michael' and password == 'password':
         print('Access Granted')
         break
 
