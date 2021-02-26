@@ -1,16 +1,16 @@
 ## Getting an existing repository from github to local machine
 
-git clone <<url>> ---------------> this clones an existing remote repo down to my local machine
+git clone (url) ---------------> this clones an existing remote repo down to my local machine
 
 ## Creating a repository locally and then adding a remote to push/pull from
 
 git init -----------> initalize git in the working directory
-git remote add origin <<url>> -------------> url is from a blank repository created on github
+git remote add origin (url) -------------> url is from a blank repository created on github
 
 ## Adding and committing files to the github repository
 
 git add [. or filename.extension] -----------> adds all files or a specific file to the commit
-git commit -m "<<some message>>" -------> prepares the file(s) to be committed and adds a descriptive message of changes made
+git commit -m "some message" -------> prepares the file(s) to be committed and adds a descriptive message of changes made
 git push -u origin master ---------> pushes files to origin (github repo) on the master branch
 git push -------------> once we have set the upstream with -u then future pushes dont need 'origin master'
 
